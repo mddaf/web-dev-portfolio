@@ -190,3 +190,53 @@ body{
     align-items: center;
     flex-shrink: 0;
 }
+
+.part-3{
+
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.part-3-2{
+    display: flex;
+    width: 477px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.part-3-2 h3{
+    width: 477px;
+    color: rgba(13, 19, 33, 0.70);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+}
+.part-3-2 p{
+    width: 468px;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.part-3-2 span{
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+}
+
+
+.part-3-1{
+    width: 240px;
+    height: 240px;
+}
