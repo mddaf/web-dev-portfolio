@@ -356,3 +356,126 @@ body{
     border-radius: 16px;
 
 }
+
+
+
+/* target */
+
+.target{
+    display: flex;
+    width: 1140px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 111px;
+    margin: 0 auto;
+    margin: 111px;
+}
+
+.current{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+}
+
+.c-1{
+    display: flex;
+    width: 946px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.c-1 h1{
+    align-self: stretch;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.c-1 p{
+    align-self: stretch;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.c-2{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch; 
+}
+
+.c-2-1{
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.c-2-11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.c-2-11 img{
+    width: 56px;
+    height: 56px;
+}
+.c-2-11 h1{
+    align-self: stretch;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px; /* 150% */
+}
+
+.c-2-11 p{
+    align-self: stretch;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.c-2-11 h6{
+    align-self: stretch;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.c-2-22{
+
+}
