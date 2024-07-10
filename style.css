@@ -57,7 +57,7 @@ nav{
 /* banner */
 
 .banner-container{
-    max-width: 1440px;
+    min-width: 1440px;
     height: 700px;
     background-image: url(assets/Hero-bg.png);
     background-position: center;
@@ -678,7 +678,7 @@ nav{
 }
 .social p{
     display: flex;
-    width: 456px;
+    width: auto;
     align-items: center;
     gap: 16px;
 
