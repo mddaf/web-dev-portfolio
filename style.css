@@ -14,8 +14,44 @@
 body{
     font-family: "Azeret Mono", monospace;
     width: 100%;
-    height: 5245px; 
-    border: 2px solid blue;
+
+}
+
+
+
+nav{
+    display: flex;
+    padding: 30px 150px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.down button{
+    display: inline-flex;
+    padding: 17px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 /* banner */
@@ -23,18 +59,19 @@ body{
 .banner-container{
    min-width: 1440px;
     height: 652px;
-    border: 2px solid red;
     background-image: url(assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 100px;
+    /* margin-top: 50px; */
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+
 
 
 /* banner content */
@@ -80,7 +117,9 @@ body{
     border-radius: 8px;
     background: #0D1321;
 }
-
+.banner-contact-box a{
+    text-decoration: none;
+}
 .banner-contact-box p{
     color: #FFF;
     text-align: center;
@@ -108,34 +147,9 @@ body{
     justify-content: center;
     gap: 10px;
 
-    border: 2px solid black;
 }
 
-.part-1{
-    text-align: center;
-    margin-bottom: 48px;
-}
-
-.part-1 h3{
-    color: #0D1321;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-bottom: 24px;
-}
-
-.part-1 p{
-    color: #0D1321;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-}
+/* why web dev is in .insp-1 */
 
 
 .part-2{
@@ -309,9 +323,38 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
+.insp-1{
+    display: flex;
+    width: 946px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.insp-1 h1{
+    align-self: stretch;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ins p{
+    align-self: stretch;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 .insp-1{
     display: flex;
@@ -379,35 +422,6 @@ body{
     align-self: stretch;
 }
 
-.c-1{
-    display: flex;
-    width: 946px;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
-}
-
-.c-1 h1{
-    align-self: stretch;
-    color: #0D1321;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.c-1 p{
-    align-self: stretch;
-    color: #0D1321;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-}
 
 
 .c-2{
@@ -477,6 +491,84 @@ body{
     text-decoration-line: underline;
 }
 
+.next{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+
+    flex-direction: column;
+    /* align-items: flex-start; */
+    margin: 0 auto;
+    margin-top: 111px;
+}
+
+
+.react-node-db{
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;  
+
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;  
+}
+
+.con img{
+    width: 144px;
+    height: 108px;
+}
+
+.descrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.descrip h1{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px; /* 150% */
+}
+
+.descrip p{
+    align-self: stretch;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.descrip h6{
+    align-self: stretch;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
 
 .support{
     display: flex;
@@ -567,7 +659,7 @@ body{
 }
 
 
-.last{
+#last{
     display: flex;
     width: 1440px;
     padding: 32px 150px;
@@ -576,6 +668,7 @@ body{
     align-items: flex-start;
     gap: 32px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 .social{
     display: flex;
@@ -583,17 +676,26 @@ body{
     align-items: center;
     align-self: stretch;
 }
-.last p{
+.social p{
     display: flex;
     width: 456px;
     align-items: center;
     gap: 16px;
+
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .social ul {
     display: flex;
     align-items: center;
     gap: 24px;
+    
 }
 
 .social li{
