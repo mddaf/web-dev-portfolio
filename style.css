@@ -58,7 +58,7 @@ nav{
 
 .banner-container{
    min-width: 1440px;
-    height: 652px;
+    height: 700px;
     background-image: url(assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -95,15 +95,14 @@ nav{
 
 .banner-text-2{
     width: 852px;
-    height: 52px;
-    color: #000000;
+
+    color: #0D1321;
     text-align: center;
     font-family: "Azeret Mono";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
-    margin-bottom: 32px;
 }
 
 .banner-contact-box{
@@ -116,6 +115,7 @@ nav{
     margin-bottom: 10px;  
     border-radius: 8px;
     background: #0D1321;
+    margin-top: 30px;
 }
 .banner-contact-box a{
     text-decoration: none;
@@ -187,7 +187,7 @@ nav{
     font-weight: 400;
     line-height: 26px;
 }
-.part-2-1 span{
+.part-2-1 button{
     display: flex;
     padding: 12px 20px;
     justify-content: center;
@@ -240,7 +240,7 @@ nav{
     font-weight: 400;
     line-height: 26px; /* 162.5% */
 }
-.part-3-2 span{
+.part-3-2 button{
     display: flex;
     padding: 12px 20px;
     justify-content: center;
@@ -295,7 +295,7 @@ nav{
     font-weight: 400;
     line-height: 26px;
 }
-.part-4-1 span{
+.part-4-1 button{
     display: flex;
     padding: 12px 20px;
     justify-content: center;
